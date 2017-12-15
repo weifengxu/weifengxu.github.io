@@ -1,46 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Full Screen Background Video</title>
-  <meta name="description" content="Full screen background video demo">
-  <meta name="author" description="Call Me Nick">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
-<div class="content">
-  <h1 class="content__heading">Welcome</h1>
-  <p class="content__teaser">To continue press the next button.</p>
-  <a href="" class="content__cta">WebSite</a>
-</div><!-- /content -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>GamesRecommend</title>
+  </head>
+  <body>
+    <!--Header -->
+    <header>
+      <img src="logo2.jpg" alt="WiFiGames">
+      <!--Nav -->
+      <div id="header">
+        <nav>
+          <ul>
+            <li><a href="./index.html"><span class="primero"><i class="icon icon-home"></i></span>Inici</a></li>
+            <li><a href="som/index.html"><span class="segundo"><i class="icon icon-info"></i></span>WiFiGames</a></li>
+            <li><a href="android/index.html"><span class="tercero"><i class="icon icon-android"></i></span>Android</a></li>
+            <li><a href="ios/index.html"><span class="cuarto"><i class="icon icon-appleinc"></i></span>IOS</a></li>
+            <li><a href=""><span class="quinto"><i class="icon icon-price-tags"></i></span>Gènere</a>
+              <ul>
+                <li><a href="">Accio</a></li>
+                <li><a href="">Aventura</a></li>
+                <li><a href="">RPG</a></li>
+                <li><a href="">Rol</a></li>
+                <li><a href="">MOBA</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-<video id="my-video" class="video"  loop>
-  <source src="media/portada.mp4" type="video/mp4">
-  <source src="media/portada.ogv" type="video/ogg">
-  <source src="media/portada.webm" type="video/webm">
-</video><!-- /video -->
+      <div id="carrousel">
+        <div id="slider">
+          <img src="images/pic1.jpg" alt="yinyangshi"/>
+          <img src="images/pic2.jpg" alt="arenas of valor"/>
+          <img src="images/pic3.jpg" alt="mobile legends"/>
+          <img src="images/pic4.jpg" alt="clash royale"/>
+          <img src="images/pic5.jpg" alt="skidstorm"/>
+        </div>
+      </div>
 
-<!--<embed name="MAD" src="music/portada.mp3" loop="true" hidden="true" autostart="true"> --><!-- /music -->
+      <div class="space-1">
 
-<script>
-(function() {
-  /**
-   * Video element
-   * @type {HTMLElement}
-   */
-  var video = document.getElementById("my-video");
+      </div>
+    </header>
 
-  /**
-   * Check if video can play, and play it
-   */
-  video.addEventListener( "canplay", function() {
-    video.play();
-  });
-})();
-</script>
+    <section>
+      <div class="seccio-principal">
 
-</body>
+      </div>
+    </section>
+
+    <aside id="top-recommend">
+      <div id="top10">
+        <h3>TOP 10 Recomanació</h3>
+      </div>
+      <div class="list">
+        <img src="images/yys.png" title="阴阳师">
+      </div>
+      <div class="list">
+        <img src="images/7r.png" title="永远的7日之都">
+      </div>
+      <div class="list">
+        <img src="images/aov.png" title="Arenas of Valor">
+      </div>
+      <div class="list">
+        <img src="images/ml.png" title="Mobile Legends">
+      </div>
+      <div class="list">
+        <img src="images/sf3.png" title="Shadow Fight 3">
+      </div>
+      <div class="list">
+        <img src="images/pgo.png" title="Pokemon Go">
+      </div>
+      <div class="list">
+        <img src="images/hs.png" title="HearthStone">
+      </div>
+      <div class="list">
+        <img src="images/egg.png" title="Egg, Inc.">
+      </div>
+      <div class="list">
+        <img src="images/coc.png" title="Clash of clan">
+      </div>
+      <div class="list">
+        <img src="images/cr.png" title="Clash Royale">
+      </div>
+    </aside>
+
+    <div class="space-1">
+
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="columfooter">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>Adreça: C/XXXXXXXXXX</li>
+            <li>Telefon: xxx-xxx-xxx</li>
+            <li>FAX: xxx-xxx-xxx</li>
+            <li>info@hotmail.com</li>
+          </ul>
+        </div>
+        <div class="columfooter">
+          <div class="copy">
+            <p>CopyRight &copy; WiFiGames.com</p>
+          </div>
+        </div>
+        <div class="columfooter">
+          <h2>Follow Us</h2>
+          <div class="fticon">
+            <img src="images/fb.png" alt="" />
+          </div>
+          <div class="fticon">
+            <img src="images/tw.png" alt="" />
+          </div>
+          <div class="fticon">
+            <img src="images/wx.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,31 @@
+#aqui{
+  font-weight: bold;
+  background-color: #000;
+}
+
+#aqui a{
+  color: #fff;
+}
+
+#descripcio{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.contingut{
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+}
+.contingut p{
+  margin-top: 3%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+iframe{
+  float: left;
+  margin-left: 25%;
+  width: 50%;
+  height: 500px;
+}

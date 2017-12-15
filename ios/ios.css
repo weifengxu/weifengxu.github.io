@@ -1,0 +1,21 @@
+#aqui{
+  font-weight: bold;
+  background-color: #000;
+}
+
+#aqui a{
+  color: #fff;
+}
+
+table{
+  width: 80%;
+  margin-left: 10%;
+  background: #000;
+  color: #fff;
+}
+
+table td{
+  width: 26.6%;
+  height: 300px;
+  text-align: center;
+}
