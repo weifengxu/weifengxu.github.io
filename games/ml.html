@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../font.css">
+    <link rel="stylesheet" href="games.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>Mobile Legends</title>
+  </head>
+  <body>
+    <!--Header -->
+    <header>
+      <img src="../logo2.jpg" alt="WiFiGames">
+      <!--Nav -->
+      <div id="header">
+        <nav>
+          <ul>
+            <li><a href="../index.html"><span class="primero"><i class="icon icon-home"></i></span>Inici</a></li>
+            <li><a href="../som/index.html"><span class="segundo"><i class="icon icon-info"></i></span>WiFiGames</a></li>
+            <li><a href="../android/index.html"><span class="tercero"><i class="icon icon-android"></i></span>Android</a></li>
+            <li><a href="../ios/index.html"><span class="cuarto"><i class="icon icon-appleinc"></i></span>IOS</a></li>
+            <li><a href=""><span class="quinto"><i class="icon icon-price-tags"></i></span>Recomanat</a>
+              <ul>
+                <li><a href="./yys.html">阴阳师</a></li>
+                <li><a href="./7r.html">永远的7日之都</a></li>
+                <li><a href="./aov.html">Arena of Valor</a></li>
+                <li><a href="./ml.html">Mobile Legends</a></li>
+                <li><a href="./pkg.html">Pokemon Go</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="content">
+        <div class="colum">
+            <img src="ml.jpg" alt="ml" />
+        </div>
+        <div class="colum">
+          <div class="titol">
+            <h2>Mobile Legends</h2>
+          </div>
+          <div class="desc">
+            <p>
+              ¡Únete a tus amigos y enfrentaos a oponentes humanos reales en este nuevo MOBA 5v5: Mobile Legends: Bang Bang! ¡Elige a tus héroes favoritos y construye un equipo imparable junto a tus hermanos de armas! Encuentra partida en 10 segundos y combate durante 10 minutos. Toma una línea o prepara emboscadas desde la jungla, asalta las torres, participa en emocionantes batallas de equipo… ¡toda la diversión de los MOBA de PC ahora en la palma de tu mano! ¡Sacia tu sed de eSports!</p>
+            <p> Mobile Legends: Bang Bang es la nueva obra maestra de los eSports para 2017. ¡Destroza a tus oponentes con solo mover un dedo y reclama la corona de Rival más Fuerte!</p>
+          </div>
+          <div class="links">
+            <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&hl=es_419"><img src="astore.png" alt="android-store" /></a>
+            <a href="https://itunes.apple.com/es/app/mobile-legends-bang-bang/id1160056295?mt=8"><img src="istore.png" alt="android-store" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="space">
+
+      </div>
+      <div id="carrousel">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+         <!-- Full-width images with number and caption text -->
+         <div class="mySlides fade">
+           <div class="numbertext">1 / 5</div>
+           <img src="ml/pic1.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">2 / 5</div>
+           <img src="ml/pic2.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">3 / 5</div>
+           <img src="ml/pic3.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">4 / 5</div>
+           <img src="ml/pic4.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">5 / 5</div>
+           <img src="ml/pic5.jpg" style="width:100%">
+         </div>
+
+         <!-- Next and previous buttons -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+         <span class="dot" onclick="currentSlide(4)"></span>
+         <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="space-1">
+
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="columfooter">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>Adreça: C/XXXXXXXXXX</li>
+            <li>Telefon: xxx-xxx-xxx</li>
+            <li>FAX: xxx-xxx-xxx</li>
+            <li>info@hotmail.com</li>
+          </ul>
+        </div>
+        <div class="columfooter">
+          <div class="copy">
+            <p>CopyRight &copy; WiFiGames.com</p>
+          </div>
+        </div>
+        <div class="columfooter">
+          <h2>Follow Us</h2>
+          <div class="fticon">
+            <img src="../images/fb.png" alt="" />
+          </div>
+          <div class="fticon">
+            <img src="../images/tw.png" alt="" />
+          </div>
+          <div class="fticon">
+            <img src="../images/wx.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      function on() {
+          document.getElementById("overlay").style.display = "block";
+      }
+
+      function off() {
+          document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

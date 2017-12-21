@@ -1,12 +1,6 @@
 #aqui{
-  font-weight: bold;
-  background-color: #000;
+  border-bottom: 5px solid #5da5a2;
 }
-
-#aqui a{
-  color: #fff;
-}
-
 #descripcio{
   width: 80%;
   margin-left: 10%;
@@ -28,4 +22,18 @@ iframe{
   margin-left: 25%;
   width: 50%;
   height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contingut h2{
+    font-size: 36px;
+  }
+  .contingut p{
+    font-size: 18px;
+  }
+  iframe{
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+  }
 }

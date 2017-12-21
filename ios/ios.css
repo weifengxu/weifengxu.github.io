@@ -1,21 +1,68 @@
 #aqui{
-  font-weight: bold;
-  background-color: #000;
-}
-
-#aqui a{
-  color: #fff;
+  border-bottom: 5px solid #174459;
 }
 
 table{
-  width: 80%;
-  margin-left: 10%;
-  background: #000;
+  width: 90%;
+  margin-left: 5%;
   color: #fff;
+  border-collapse: collapse;
 }
 
-table td{
-  width: 26.6%;
-  height: 300px;
+td{
+  width: 30%;
+  height: 400px;
   text-align: center;
+  margin-bottom: 1%;
+  position: relative;
+}
+td img{
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-left: 5%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+td:hover .image {
+  opacity: 0.3;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+td:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 10px 10px;
+}
+
+.text a{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  td {
+    height: 250px;
+  }
 }

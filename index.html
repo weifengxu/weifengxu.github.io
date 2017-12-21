@@ -15,17 +15,17 @@
       <div id="header">
         <nav>
           <ul>
-            <li><a href="./index.html"><span class="primero"><i class="icon icon-home"></i></span>Inici</a></li>
+            <li id="aqui"><a href="./index.html"><span class="primero"><i class="icon icon-home"></i></span>Inici</a></li>
             <li><a href="som/index.html"><span class="segundo"><i class="icon icon-info"></i></span>WiFiGames</a></li>
             <li><a href="android/index.html"><span class="tercero"><i class="icon icon-android"></i></span>Android</a></li>
             <li><a href="ios/index.html"><span class="cuarto"><i class="icon icon-appleinc"></i></span>IOS</a></li>
-            <li><a href=""><span class="quinto"><i class="icon icon-price-tags"></i></span>Gènere</a>
+            <li><a href=""><span class="quinto"><i class="icon icon-price-tags"></i></span>Recomanat</a>
               <ul>
-                <li><a href="">Accio</a></li>
-                <li><a href="">Aventura</a></li>
-                <li><a href="">RPG</a></li>
-                <li><a href="">Rol</a></li>
-                <li><a href="">MOBA</a></li>
+                <li><a href="../games/yys.html">阴阳师</a></li>
+                <li><a href="../games/7r.html">永远的7日之都</a></li>
+                <li><a href="../games/aov.html">Arena of Valor</a></li>
+                <li><a href="../games/ml.html">Mobile Legends</a></li>
+                <li><a href="../games/pkg.html">Pokemon Go</a></li>
               </ul>
             </li>
           </ul>
@@ -33,12 +33,48 @@
       </div>
 
       <div id="carrousel">
-        <div id="slider">
-          <img src="images/pic1.jpg" alt="yinyangshi"/>
-          <img src="images/pic2.jpg" alt="arenas of valor"/>
-          <img src="images/pic3.jpg" alt="mobile legends"/>
-          <img src="images/pic4.jpg" alt="clash royale"/>
-          <img src="images/pic5.jpg" alt="skidstorm"/>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+         <!-- Full-width images with number and caption text -->
+         <div class="mySlides fade">
+           <div class="numbertext">1 / 5</div>
+           <img src="images/pic1.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">2 / 5</div>
+           <img src="images/pic2.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">3 / 5</div>
+           <img src="images/pic3.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">4 / 5</div>
+           <img src="images/pic4.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides fade">
+           <div class="numbertext">5 / 5</div>
+           <img src="images/pic5.jpg" style="width:100%">
+         </div>
+
+         <!-- Next and previous buttons -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+         <span class="dot" onclick="currentSlide(4)"></span>
+         <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       </div>
 
@@ -48,46 +84,8 @@
     </header>
 
     <section>
-      <div class="seccio-principal">
-
-      </div>
+      
     </section>
-
-    <aside id="top-recommend">
-      <div id="top10">
-        <h3>TOP 10 Recomanació</h3>
-      </div>
-      <div class="list">
-        <img src="images/yys.png" title="阴阳师">
-      </div>
-      <div class="list">
-        <img src="images/7r.png" title="永远的7日之都">
-      </div>
-      <div class="list">
-        <img src="images/aov.png" title="Arenas of Valor">
-      </div>
-      <div class="list">
-        <img src="images/ml.png" title="Mobile Legends">
-      </div>
-      <div class="list">
-        <img src="images/sf3.png" title="Shadow Fight 3">
-      </div>
-      <div class="list">
-        <img src="images/pgo.png" title="Pokemon Go">
-      </div>
-      <div class="list">
-        <img src="images/hs.png" title="HearthStone">
-      </div>
-      <div class="list">
-        <img src="images/egg.png" title="Egg, Inc.">
-      </div>
-      <div class="list">
-        <img src="images/coc.png" title="Clash of clan">
-      </div>
-      <div class="list">
-        <img src="images/cr.png" title="Clash Royale">
-      </div>
-    </aside>
 
     <div class="space-1">
 
@@ -123,5 +121,41 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      function on() {
+          document.getElementById("overlay").style.display = "block";
+      }
+
+      function off() {
+          document.getElementById("overlay").style.display = "none";
+      }
+    </script>
   </body>
 </html>
