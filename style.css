@@ -254,7 +254,12 @@ nav ul li a .quinto {
 }
 
 .copy{
-  margin-top:100px;
+  margin-top:50px;
+}
+.copy img{
+  z-index: 100;
+  width: 45px;
+  height: 45px;
 }
 .fticon{
   margin-left: 35%;

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+      <title>Wifi Games</title>
+      <description>Recomanacio de jocs de smartphone.</description>
+      <link>https://weifengxu.github.io</link>
+      <item>
+         <title>Arena of Valor</title>
+         <link>https://weifengxu.github.io/games/aov.html</link>
+         <pubDate>Mon, 29 Jan 2018 13:38:00 +0200</pubDate>
+         <description>¡Experimenta Arena of Valor, un nuevo y épico campo de batalla multijugador en línea 5v5 (MOBA) diseñado por Tencent Games! </description>
+      </item>
+      <item>
+         <title>Clash of Clans</title>
+         <link>https://weifengxu.github.io/games/coc.html</link>
+         <pubDate>Mon, 28 Jan 2018 13:38:00 +0200</pubDate>
+         <description>Construye tu aldea, crea un clan y compite en las épicas guerras de clanes junto a millones de jugadores. Te esperan bárbaros con bigotes impecables, magos con ardientes bolas de fuego y otras increíbles tropas. ¡Descubre el mundo de Clash of Clans! </description>
+      </item>
+      <item>
+         <title>Clash Royale</title>
+         <link>https://weifengxu.github.io/games/cr.html</link>
+         <pubDate>Mon, 27 Jan 2018 13:38:00 +0200</pubDate>
+         <description>¡Atrévete a pisar la arena! De los creadores de Clash of Clans, llega Clash Royale, un juego multijugador en tiempo real protagonizado por tus personajes favoritos de Clash, además de por nobles y muchos otros elementos. </description>
+      </item>
+      <item>
+         <title>Shadow Fight 3</title>
+         <link>https://weifengxu.github.io/games/sf3.html</link>
+         <pubDate>Mon, 26 Jan 2018 13:38:00 +0200</pubDate>
+         <description>Sumérgete en el mundo de las sombras en un momento de cambio. Revela todos sus oscuros secretos y supera a todos los guerreros de esta tierra. En este juego de lucha RPG asumirás el rol de un héroe o heroína cuyo destino aún está por determinar. </description>
+      </item>
+      <item>
+         <title>Mobile Legends</title>
+         <link>https://weifengxu.github.io/games/ml.html</link>
+         <pubDate>Mon, 25 Jan 2018 13:38:00 +0200</pubDate>
+         <description>¡Únete a tus amigos y enfrentaos a oponentes humanos reales en este nuevo MOBA 5v5: Mobile Legends: Bang Bang! ¡Elige a tus héroes favoritos y construye un equipo imparable junto a tus hermanos de armas! Encuentra partida en 10 segundos y combate durante 10 minutos. Toma una línea o prepara emboscadas desde la jungla, asalta las torres, participa en emocionantes batallas de equipo…</description>
+      </item>
+   </channel>
+</rss>
